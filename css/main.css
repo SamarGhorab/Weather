@@ -1,0 +1,72 @@
+.home{
+    background-image: url(../imgs/banner.png);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#search{
+    width: 80%;
+    height: 70px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: #fff;
+    background: rgb(30, 32, 43);
+    border: unset;
+    padding: 5  0 5 15;
+    margin-bottom: 50;
+}
+
+.navbar{
+    background: rgb(30, 32, 43);
+color: #fff;
+}
+
+#currentWeather,#day1,#day2{
+    width:300;
+    height: 300;
+    margin-top: 50;
+    background-color: rgb(70, 70, 70);
+
+}
+#todayHeader,#day1Header,#day2Header{
+    background: rgba(0, 0, 0, 0.1);
+height: 30;
+}
+#currentWeather{
+background-color: rgb(70, 70, 70);
+}
+#day1{
+    background: rgb(109, 109, 110);
+    }
+    
+ #day{
+        background-color: rgb(70, 70, 70);
+        }
+        
+#currentNum{
+    font-weight: bold;
+    color: #fff;
+    font-size: 3em;
+}
+#regionName{
+    color: #bfc1c8;
+}
+#custom,#day1Custom,#day2Custom{
+    color: #009ad8;
+    margin: 20px 0;}
+
+    #todayHeader ,#day1Header,#day2Header{
+        color: #bfc1c8;
+         text-align: center; 
+    }
+
+    #day1NumMax,#day2NumMax{
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.8em; 
+        padding: 0.25 0;
+    }
+    #day1NumMin,   #day2NumMin{
+        color: #bfc1c8;
+    }
